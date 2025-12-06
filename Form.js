@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Form({ onAddItems }) {
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState(1);
-
+  {handle sumbmit with button and Enter key}
   function handleSubmit(e) {
     e.preventDefault();
 
