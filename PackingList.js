@@ -22,7 +22,7 @@ export default function PackingList({
     sortedItems = items
       .slice()
       .sort((a, b) => Number(a.packed) - Number(b.packed));
-  {JSX}
+
   return (
     <div className="list">
       <ul>
@@ -47,4 +47,3 @@ export default function PackingList({
     </div>
   );
 }
-
